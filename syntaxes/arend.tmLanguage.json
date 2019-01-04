@@ -1,0 +1,34 @@
+{
+    "name": "Arend",
+    "fileTypes": [
+        "ard"
+    ],
+    "patterns": [
+        {
+            "begin": "{-",
+            "end": "-}",
+            "name": "comment.block.arend"
+        },
+        {
+            "match": "--.*$",
+            "name": "comment.line.double-dash.arend"
+        },
+        {
+            "match": "\\\\(open|import|hiding|using|as|module|func|lemma|field|property|classifying|coerce|use|fix|fixl|fixr|infix|infixl|infixr|Prop|Set|Type|where|with|cowith|elim|new|Pi|Sigma|lam|let|in|case|return|data|class|record|extends|instance|truncated|lp|lh|suc|level|max|invalid)\\b",
+            "name": "keyword.control.arend"
+        },
+        {
+            "match": "(:|_|->|=>|=|@|\\?|\\.|,|\\|)",
+            "name": "keyword.other.arend"
+        },
+        {
+            "match": "^\\\\func (\\S+)",
+            "name": "entity.name.function.arend"
+        },
+        {
+            "match": "\\b(Nat|zero|suc|Int|pos|neg|I|left|right|Path|inProp|coe|iso|fromNat)\\b",
+            "name": "entity.constant.arend"
+        }
+    ],
+    "scopeName": "source.arend"
+}

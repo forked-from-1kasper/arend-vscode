@@ -1,0 +1,31 @@
+{
+    "name": "arend",
+    "displayName": "Arend",
+    "version": "0.0.0",
+    "description": "Arend syntax highlighting for Visual Studio Code",
+    "publisher": "siegmentationfault",
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forked-from-1kasper/arend-vscode"
+    },
+    "engines": {
+        "vscode": "^1.10.1"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "Arend",
+            "extensions": [
+                ".ard"
+            ],
+            "configuration": "./arend-configuration.json"
+        }],
+        "grammars": [{
+            "language": "Arend",
+            "scopeName": "source.arend",
+            "path": "./syntaxes/arend.tmLanguage.json"
+        }]
+    }
+}
