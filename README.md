@@ -2,6 +2,8 @@
 
 Based on [Arend plugin for IntelliJ IDEA](https://github.com/JetBrains/intellij-arend/).
 
+![Screenshot](screenshot.png)
+
 # Installation
 
 ```bash
