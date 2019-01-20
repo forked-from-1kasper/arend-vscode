@@ -14,7 +14,7 @@
             "name": "comment.line.double-dash.arend"
         },
         {
-            "match": "\\\\(open|import|hiding|using|as|module|func|lemma|field|property|classifying|coerce|use|fix|fixl|fixr|infix|infixl|infixr|Prop|Set|Type|where|with|cowith|elim|new|Pi|Sigma|lam|let|in|case|return|data|class|record|extends|instance|truncated|lp|lh|suc|level|max|invalid)\\b",
+            "match": "\\\\(open|import|hiding|this|using|as|module|func|lemma|field|property|classifying|coerce|use|fix|fixl|fixr|infix|infixl|infixr|Prop|Set|Type|where|with|cowith|elim|new|Pi|Sigma|lam|let|in|case|return|data|class|record|extends|instance|truncated|lp|lh|suc|level|max|invalid)\\b",
             "name": "keyword.control.arend"
         },
         {
